@@ -1,8 +1,13 @@
-// Linked Lists
+// // Linked Lists
+
+// Singly Linked List
 
 function LinkedList() {
   let head = null;
 }
+
+
+// SLL Push
 
 LinkedList.prototype.push = val => {
   const node = {
@@ -20,3 +25,21 @@ LinkedList.prototype.push = val => {
     current.next = node;
   }
 };
+
+
+// SLL Remove
+
+LinkedList.prototype.remove = val => {
+
+};
+
+
+// Doubly Linked List
+
+function DoublyLinkedList() {
+  this.head = null;
+}
+
+// DLL Push
+
+// DLL Remove
