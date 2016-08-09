@@ -30,7 +30,10 @@ LinkedList.prototype.push = val => {
 // SLL Remove
 
 LinkedList.prototype.remove = val => {
-
+  const current = this.head;
+  if (current.val === val) {
+    this.head = current.next;
+  }
 };
 
 
