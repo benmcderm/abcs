@@ -64,3 +64,10 @@ DoublyLinkedList.prototype.push = val => {
 };
 
 // DLL Remove
+
+DoublyLinkedList.prototype.remove = val => {
+  const current = this.head;
+  if (current.val === val) {
+    this.head = current.next;
+  }
+};
